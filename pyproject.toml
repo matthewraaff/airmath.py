@@ -1,0 +1,27 @@
+[project]
+name = "airmath"
+description = "Aeronatical calculations in a python package"
+version = 0.1
+authors = [
+    { name = "Matthew Raaff", email = "matthew@raaff.dev" }
+]
+license = "MIT"
+dependencies = [
+    "numpy"
+]
+
+[build-system]
+requires = ['poetry-core~=1.0']
+build-backend = 'poetry.core.masonry.api'
+
+[tool.poetry]
+name = "airmath"
+version = "0.1.0"
+description = "Aeronatical calculations in a python package"
+
+authors = [
+    "Matthew Raaff <matthew@raaff.dev>"
+]
+
+license = "MIT"
+readme = "README.md"
